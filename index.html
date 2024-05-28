@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GО GО Pizza - Замовити найсмачнішу піцу в місті</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img class="header__logo" src="./assets/img/logo.svg"
+          alt="Логотип Go Go Pizza">
+
+        <button class="header__cart" type="button"
+          aria-label="Перейти до корзин">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M10.2447 19.9998L4.10025 20C3.52015 19.9993 3.02891 19.607 3.00305 18.9351L3.00023 5.9415C3.00035 5.86538 2.99612 5.78464 3.01939 5.71195L3.02658 5.69123C3.17289 5.25439 3.43005 5.20004 3.79803 5.19899L6.58683 5.20079C6.68626 5.20099 6.74251 5.24705 6.74251 5.11779L6.7427 4.08922C6.74285 3.80394 6.72952 3.50765 6.75378 3.22354C6.90462 1.4575 8.17638 0.161078 9.76094 0.0108937L9.78405 0.00632522C9.98756 0.00499552 10.2033 -0.010719 10.4053 0.0130279C11.8031 0.177318 12.9029 1.39793 13.1751 2.87932C13.2436 3.25201 13.2423 3.59681 13.2426 3.97767L13.2444 5.19603C13.3085 5.20825 13.3829 5.20066 13.4482 5.20062L16.1349 5.19741C16.5033 5.19745 16.8656 5.22863 16.9758 5.71161L16.9798 5.73033C17.0103 5.86651 16.9972 6.02474 16.9973 6.16475L16.9928 18.9908C16.9793 19.3738 16.7199 19.7355 16.4114 19.8936C16.2072 19.9983 16.0154 19.9979 15.7934 19.999L10.2447 19.9998ZM9.86623 1.83416C9.13321 1.92478 8.56466 2.50309 8.43925 3.29586C8.40765 3.49548 8.42722 3.72812 8.42722 3.9312L8.42794 5.19937L10.1602 5.19908L11.5594 5.19929L11.5591 3.5658C11.5564 2.53906 10.8239 1.76759 9.86623 1.83416ZM7.38448 7.52671C6.04227 7.64434 6.15332 9.73801 7.49949 9.70933C8.8618 9.52717 8.61172 7.4295 7.38448 7.52671ZM12.5264 7.53972C11.1809 7.69444 11.3167 9.74163 12.6578 9.70762C13.9735 9.53388 13.8602 7.45702 12.5264 7.53972Z"
+              fill="#2C2826" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">Найкраща піца
+            в&nbsp;місті</h1>
+
+          <p class="hero__tagline">Доставимо менше ніж за&nbsp;годину</p>
+
+          <button class="hero__order" type="button">Замовити</button>
+        </div>
+      </section>
+
+      <section class="toppings">
+        <div class="container">
+          <h2 class="toppings__title">Выбрать топінг:</h2>
+
+          <ul class="toppings__list">
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Твердий сир"> Твердий сир
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Моцарелла"> Моцарелла
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Сир з плісенню"> Сир з плісенню
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Пеппероні"> Пеппероні
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox" name="Шинка">
+                Шинка
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Курятина"> Курятина
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Креветки"> Креветки
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Помідор"> Помідор
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox"
+                  name="Болгарский перець"> Болгарский перець
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox" name="Ананас">
+                Ананас
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox" name="Цибуля">
+                Цибуля
+              </label>
+            </li>
+            <li class="toppings__item">
+              <label class="toppings__label">
+                <input type="checkbox" class="toppings__checkbox" name="Гриби">
+                Гриби
+              </label>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title">Піца</h2>
+
+          <ul class="products__list">
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-margherita.png" alt="Маргарита">
+
+                <h3 class="card__title">Маргарита</h3>
+
+                <p class="card__info">
+                  <span class="card__price">160</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-pepperoni.png" alt="Пеппероні">
+
+                <h3 class="card__title">Пеппероні</h3>
+
+                <p class="card__info">
+                  <span class="card__price">160</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-with-shrimps.png"
+                  alt="З морепродуктами">
+
+                <h3 class="card__title">З морепродуктами</h3>
+
+                <p class="card__info">
+                  <span class="card__price">160</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-only-cheese.png" alt="Чотири сира">
+
+                <h3 class="card__title">Чотири сира</h3>
+
+                <p class="card__info">
+                  <span class="card__price">160</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-capricciosa.png" alt="Капричіоза">
+
+                <h3 class="card__title">Капричіоза</h3>
+
+                <p class="card__info">
+                  <span class="card__price">170</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-with-mushrooms.png" alt="З грибами">
+
+                <h3 class="card__title">З грибами</h3>
+
+                <p class="card__info">
+                  <span class="card__price">140</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-with-bacon.png" alt="З шинкою">
+
+                <h3 class="card__title">З шинкою</h3>
+
+                <p class="card__info">
+                  <span class="card__price">150</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-with-chicken-terriyaki.png"
+                  alt="З куркою теріякі">
+
+                <h3 class="card__title">З куркою теріякі</h3>
+
+                <p class="card__info">
+                  <span class="card__price">175</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-hawaiana.png" alt="Гавайска">
+
+                <h3 class="card__title">Гавайска</h3>
+
+                <p class="card__info">
+                  <span class="card__price">170</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+
+            <li class="products__item">
+              <article class="card">
+                <img class="card__img"
+                  src="./assets/img/pizza-napoletana.png" alt="Неаполитана">
+
+                <h3 class="card__title">Неаполітана</h3>
+
+                <p class="card__info">
+                  <span class="card__price">180</span>
+
+                  <span>/</span>
+
+                  <span class="card__size">25 cм</span>
+                </p>
+
+                <button class="card__btn" type="button">Вибрати</button>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <img class="footer__logo" src="./assets/img/logo-footer.svg"
+          alt="Логтип GO GO Pizza">
+
+        <p class="footer__copyright">©go go pizza, 2024</p>
+
+        <ul class="footer__developers">
+          <li class="footer__developer">
+            Designer: <a href="https://t.me/Marshmalloowww"
+              class="footer__link" target="_blank" rel="noopener"> Anastasia Ilina</a>
+          </li>
+
+          <li class="footer__developer">
+            Developer: <a href="https://t.me/Serg_svet"
+              class="footer__link" target="_blank" rel="noopener"> Serhii Svitlychnyi</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
