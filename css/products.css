@@ -16,4 +16,31 @@
 }
 
 .products__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__card {
+  flex-grow: 1;
+}
+
+@media (width >= 620px) {
+  .products {
+    padding: 64px 0;
+  }
+
+  .products__title {
+    font-size: 44px;
+  }
+
+  .products__list {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (width >= 1140px) {
+  .products__list {
+    gap: 20px;
+  }
 }

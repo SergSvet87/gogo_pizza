@@ -22,6 +22,9 @@
 .toppings__title {
   position: fixed;
   transform: scale(0);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--dark);
 }
 
 .toppings__list {
@@ -30,7 +33,7 @@
   overflow: hidden;
   flex-wrap: wrap;
   gap: 8px;
-  transition: max-height .3s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .toppings__list_show {
@@ -61,4 +64,35 @@
   color: var(--orange);
   background-color: var(--white);
   border-color: #b66200;
+}
+
+@media (width >= 620px) {
+  .toppings {
+    padding: 32px 0;
+  }
+
+  .toppings__btn {
+    font-size: 24px;
+  }
+
+  .toppings__label {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 860px) {
+  .toppings__title {
+    position: static;
+    transform: scale(1);
+    margin-bottom: 16px;
+  }
+
+  .toppings__btn {
+    display: none;
+  }
+
+  .toppings__list {
+    max-height: none;
+    display: flex;
+  }
 }

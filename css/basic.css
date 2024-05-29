@@ -1,15 +1,16 @@
 :root {
   --width: 1300px;
-	--white: #fff;
-	--beige: #c1ab91;
-	--dark: #2c2826;
-	--orange: #ff8a00;
-	--light: #fbf3e8;
+  --white: #fff;
+  --beige: #c1ab91;
+  --dark: #2c2826;
+  --orange: #ff8a00;
+  --light: #fbf3e8;
 }
 
 html {
   position: relative;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 *,
@@ -93,4 +94,16 @@ iframe {
 
 .svg-sprite {
   display: none;
+}
+
+@media (width >= 620px) {
+  .container {
+    --offset-container: 40px;
+  }
+}
+
+@media (width >= 1140px) {
+  .container {
+    --offset-container: 70px;
+  }
 }
